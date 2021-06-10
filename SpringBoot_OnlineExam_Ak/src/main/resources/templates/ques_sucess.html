@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Question Register</title>
+</head>
+<body>
+	<div align="center">
+		<h1>Question Register Sucessfully!</h1>
+		<span>id</span><span th:text="${question.id}"></span><br/>
+		<span>Name:</span><span th:text="${question.name}"></span><br/>
+		<span>A</span><span th:text="${question.a}"></span><br/>
+		<span>B</span><span th:text="${question.b}"></span><br/>
+		<span>C</span><span th:text="${question.c}"></span><br/>
+		<span>Ans</span><span th:text="${question.ans}"></span>
+	</div>
+</body>
+</html>

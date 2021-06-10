@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Register</title>
+</head>
+<body>
+	<div align="center">
+		<h1>Register Succeeded!</h1>
+		<span>Id :</span><span th:text="${student.id}"></span>
+		<span>Name :</span><span th:text="${student.name}"></span>
+		<span>Email :</span><span th:text="${student.email}"></span>
+		
+		<a href="/login">login page</a>
+	</div>
+</body>
+</html>
